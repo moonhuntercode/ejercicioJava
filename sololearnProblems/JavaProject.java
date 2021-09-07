@@ -1,4 +1,4 @@
-package 
+package sololearnProblems;
 import java.util.Scanner;
 
 abstract class Shape {
