@@ -13,23 +13,23 @@ class Circle extends Shape{
         double area=Math.PI*width;
         System.out.println(area);
     }
-    public Circle(Double b){
-    b=0.0;
+    public Circle(double y){
+        width=(int)y;
     }
 
     @Override
     void area() {
-        System.out.println(Math.PI*width);
+        System.out.println(Math.PI*width*width);
     }
 }
 class Square extends Shape{
 public Square(int a){
-    a=0;
+    width=a;
 }
 @Override
 void area() {
     // TODO Auto-generated method stub
-        System.out.println(Math.sqrt(width));
+        System.out.println((int)(Math.pow(width,2)));
 }
 
 }
@@ -37,8 +37,8 @@ void area() {
 public class JavaProject {
     public static void main(String[ ] args) {
         Scanner sc = new Scanner(System.in);
-        int x = 12;
-        double y = 5;
+        int x = sc.nextInt();
+        double y = sc.nextInt();
         
         Square a = new Square(x);
         Circle b = new Circle(y);
