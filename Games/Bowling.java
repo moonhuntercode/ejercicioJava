@@ -1,4 +1,4 @@
-import java.util.*; 
+import java.util.*;
 
 public class Bowling {
     HashMap<String, Integer> players;
@@ -9,14 +9,22 @@ public class Bowling {
         players.put(name, p);
     }
     //your code goes here
-    public void getWinner(){
-       System.out.println(players.values());
-       for(String i:players.keySet()){
-           
-       }
+   
+        public void getWinner() {
+            int max = 0;
+            String maxPlayer = null;
+            Iterator it = players.entrySet().iterator();
+            while (it.hasNext()) {
+                Map.Entry pair = (Map.Entry) it.next();
+                if ((int) pair.getValue() > max) {
+                    max = (int) pair.getValue();
+                    maxPlayer = (String) pair.getKey();
+                }
+            }
+            System.out.println(maxPlayer);
+        }
+
     }
-    
-}
 
 class Program {
     public static void main(String[ ] args) {
