@@ -18,22 +18,27 @@ public class App
             try{ 
                 
                 // Class.forName("com.mysql.cj.jdbc.Driver");
-                Connection conexion=DriverManager.getConnection("jdbc:mysql://localhost:3306/test?useSSL=false&useTimezone=true&serverTimezone=UTC&allowPublicKeyRetrieval=true","root" ,"admin");
+                Connection conexion=DriverManager.getConnection("jdbc:mysql://localhost:3306/sakila","root" ,"admin");
                 java.sql.Statement instruccion= conexion.createStatement();
-                ResultSet sql=instruccion.executeQuery("SELECT actor_id,first_name,last_name,last_update FROM actor");
+                ResultSet sqle=instruccion.executeQuery("SELECT * FROM actor");
                 // ResultSet resultados=instruccion.executeQuery(sql);
-                while (sql.next()) {
-                    System.out.println("Id Persona:"+resultados.getInt("actor_id"));
+                while (sqle.next()) {
+                    System.out.println("--------");
+                    System.out.println("Id Persona:"+sqle.getInt("actor_id"));
+                    System.out.println("--------");
+                   
                 }
+                instruccion.close();
+                conexion.close();
 
             }
             // catch(ClassNotFoundException ex){
             // }
              catch (SQLException e) {
                 // TODO Auto-generated catch block
-                e.printStackTrace();
+                e.printStackTrace(System.out);
             }
-        System.out.println( "Hello World!" );
+        // System.out.println( "Hello World!" );
         
     }
 }
