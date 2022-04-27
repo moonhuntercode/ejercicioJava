@@ -5,6 +5,6 @@ public class ObjectOne {
     }
 
     public static void main(String[] args) {
-        system.out.println("h");
+        System.out.println("h");
     }
 }
