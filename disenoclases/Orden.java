@@ -1,3 +1,4 @@
+package disenoclases;
 public class Orden {
     private int idOrden;
     private Producto productos[];//declaramos la variable productos
