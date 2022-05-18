@@ -1,14 +1,14 @@
 package COla;
 import java.util.Scanner;
 
-public class CColaEstatica 
+public class ColaEstatica01
 {
 	int MAX=10;
 	int Infor[]=new int[MAX];
 	int Ini;
 	int Fin;
 
-	public CColaEstatica()
+	public ColaEstatica01()
 	{
 		Ini=0;
 		Fin=-1;
@@ -59,7 +59,7 @@ public class CColaEstatica
 	
 	public static void main(String[] args) {
 	 int opcion;
-	 CColaEstatica col=new CColaEstatica();
+	 ColaEstatica01 col=new ColaEstatica01();
 	 do {
 		 System.out.println();
 		 System.out.println("1. INSERTAR ");

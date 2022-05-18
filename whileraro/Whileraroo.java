@@ -1,6 +1,7 @@
 /**
  * Whileraroo
  */
+package whileraro;
 public class Whileraroo {
 
     public static void main(String[] args) {

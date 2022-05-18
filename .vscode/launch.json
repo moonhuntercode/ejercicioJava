@@ -1,0 +1,63 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ColaEstatica01",
+            "request": "launch",
+            "mainClass": "COla.ColaEstatica01",
+            "projectName": "ejercicioJava_a8c6bd01"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainCaja",
+            "request": "launch",
+            "mainClass": "CajaApp.MainCaja",
+            "projectName": "ejercicioJava_a8c6bd01"
+        },
+        {
+            "type": "java",
+            "name": "Launch Program",
+            "request": "launch",
+            "mainClass": "Games.Program",
+            "projectName": "ejercicioJava_a8c6bd01"
+        },
+        {
+            "type": "java",
+            "name": "Launch ObjectOne",
+            "request": "launch",
+            "mainClass": "Objects.ObjectOne",
+            "projectName": "ejercicioJava_a8c6bd01"
+        },
+        {
+            "type": "java",
+            "name": "Launch ListArray",
+            "request": "launch",
+            "mainClass": "apiList.ListArray",
+            "projectName": "ejercicioJava_a8c6bd01"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaProject",
+            "request": "launch",
+            "mainClass": "sololearnProblems.JavaProject",
+            "projectName": "ejercicioJava_a8c6bd01"
+        },
+        {
+            "type": "java",
+            "name": "Launch Whileraroo",
+            "request": "launch",
+            "mainClass": "whileraro.Whileraroo",
+            "projectName": "ejercicioJava_a8c6bd01"
+        }
+    ]
+}
