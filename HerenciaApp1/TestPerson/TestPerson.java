@@ -5,5 +5,4 @@ package TestPerson;
  */
 public class TestPerson {
 
-    
 }
