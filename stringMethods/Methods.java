@@ -9,9 +9,21 @@
  */
 public class Methods {
 
-    public static void main(String[] args) {
+    public static void DevuelveTamaño(){
         String str = "Hello World!";  
-        System.out.println(str.length());
+        System.out.println("el tamaño del str es: "+str.length());
+    }
+    public static  void FullName(){
+  // Add your first names:
+  String firstName = "Ziggy";  
+  String lastName = "Stardust";
+
+  // What's the full name?
+  System.out.println(firstName.concat(" " + lastName));
+    }
+    public static void main(String[] args) {
+        DevuelveTamaño();
+FullName();
     }
 }
 
