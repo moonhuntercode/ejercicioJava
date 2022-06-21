@@ -1,3 +1,4 @@
+package Listas1;
 
 import java.util.*;
 import java.util.stream.*;
@@ -127,20 +128,20 @@ Nodo objeto2=new Nodo();
 
     private void eliminarPosicion() {
 
-        int contador=0;
-        if (listaS==null){
-            System.out.println("lista vacia");
-        }
-        else {
-            num = new int[cantidad];
-            Nodo punteroAuxiliar=   listaS;
-            while (punteroAuxiliar!=null){
-                num[contador]=punteroAuxiliar.info;
-                        contador++;
-                System.out.print(punteroAuxiliar.info+" ");
-                punteroAuxiliar=punteroAuxiliar.punteroSiguiente;
-            }
-        }
+        // int contador=0;
+        // if (listaS==null){
+        //     System.out.println("lista vacia");
+        // }
+        // else {
+        //     num = new int[cantidad];
+        //     Nodo punteroAuxiliar=   listaS;
+        //     while (punteroAuxiliar!=null){
+        //         num[contador]=punteroAuxiliar.info;
+        //                 contador++;
+        //         System.out.print(punteroAuxiliar.info+" ");
+        //         punteroAuxiliar=punteroAuxiliar.punteroSiguiente;
+        //     }
+        //}
     }
 
 
