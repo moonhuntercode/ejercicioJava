@@ -1,4 +1,4 @@
-package Listas1;
+package ListaSimple1;
 
 import java.util.*;
 import java.util.stream.*;
